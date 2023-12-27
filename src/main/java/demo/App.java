@@ -12,7 +12,10 @@ public class App {
 
         //TODO: call your test case functions one after other here
 
-        tests.testCase01();
+        tests.testCase01_VerifyHomePageUrl();
+        tests.testCase02_GetFlightDetails();
+        tests.testCase03_GetTrainDetails();
+        tests.testCase04_VerifyNoBusesFound();
 
         //END Tests
 
